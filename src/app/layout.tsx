@@ -1,21 +1,20 @@
-import "../global.css";
+import './styles/globals.css'
 import { Inter } from "@next/font/google";
-import LocalFont from "@next/font/local";
 import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
 	title: {
-		default: "chronark.com",
-		template: "%s | chronark.com",
+		default: "asal360°.com",
+		template: "%s | asal360°.com",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "I am interested in 360° shooting and photography in the Ubn-Jr team.",
 	openGraph: {
-		title: "chronark.com",
+		title: "asal360°.com",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
+			"I am interested in 360° shooting and photography in the Ubn-Jr team.",
 		url: "https://chronark.com",
-		siteName: "chronark.com",
+		siteName: "asal360°.com",
 		images: [
 			{
 				url: "https://chronark.com/og.png",
@@ -45,3 +44,27 @@ export const metadata: Metadata = {
 		shortcut: "/favicon.png",
 	},
 };
+const inter = Inter({
+	subsets: ["latin"],
+	variable: "--font-inter",
+});
+
+
+export default function RootLayout({
+	children,
+}: {
+	children: React.ReactNode;
+}) {
+	return (
+		<html lang="en" className={[inter.variable].join(" ")}>
+			
+			<body
+				className={`bg-black ${
+					process.env.NODE_ENV === "development" ? "debug-screens" : undefined
+				}`}
+			>
+				{children}
+			</body>
+		</html>
+	);
+}

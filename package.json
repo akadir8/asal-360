@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/font": "^13.5.4",
     "@tailwindcss/typography": "^0.5.10",
     "contentlayer": "^0.3.4",
+    "framer-motion": "^10.16.4",
+    "lucide-react": "^0.286.0",
     "next": "^13.5.4",
     "next-google-fonts": "^2.2.0",
     "particles.js": "^2.0.0",

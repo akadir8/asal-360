@@ -1,0 +1,33 @@
+{
+        "project1": {
+            "link":"https://mls.kuu.la/share/collection/7FCcS?fs=1&vr=1&zoom=1&autorotate=0.04&autop=100&autopalt=1&thumbs=3&alpha=0.82",
+            "width":"100%",
+            "height":"400",
+            "fullscreen":true
+        },
+        "project2": {
+            "link":"https://mls.kuu.la/share/collection/7FCcS?fs=1&vr=1&zoom=1&autorotate=0.04&autop=100&autopalt=1&thumbs=3&alpha=0.82",
+            "width":"100%",
+            "height":"400",
+            "fullscreen":true
+        },
+        "project3": {
+            "link":"https://mls.kuu.la/share/collection/7J7X5?fs=1&vr=1&zoom=1&autorotate=0.04&autop=100&autopalt=1&thumbs=3&alpha=0.82",
+            "width":"100%",
+            "height":"400",
+            "fullscreen":true
+        },
+        "project4": {
+            "link":"https://mls.kuu.la/share/collection/7JYbN?fs=1&vr=1&zoom=1&autorotate=0.04&autop=100&autopalt=1&thumbs=3&alpha=0.82",
+            "width":"100%",
+            "height":"400",
+            "fullscreen":true
+        },
+        "project5": {
+            "link":"https://mls.kuu.la/share/collection/7Jtyz?fs=1&vr=1&zoom=1&autorotate=0.04&autop=100&autopalt=1&thumbs=3&alpha=0.82",
+            "width":"100%",
+            "height":"400",
+            "fullscreen":true
+        }
+
+}

@@ -27,7 +27,7 @@ export default async function ProjectsPage() {
 
         <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-3 ">
 		{Object.keys(projects).map((key, index) => {
-            const project = projects[key]; // project'ı tanımlayın
+            const project = projects[key];
             return (
               <div key={index} className="grid grid-cols-1 gap-4">
                 <Card>
@@ -47,13 +47,6 @@ export default async function ProjectsPage() {
           })}
 
           <div className="flex flex-col w-full gap-8 mx-auto border-t border-gray-900/10 lg:mx-0 lg:border-t-0 "></div>
-        </div>
-        <div className="hidden w-full h-px md:block bg-zinc-800" />
-
-        <div className="grid grid-cols-1 gap-4 mx-auto lg:mx-0 md:grid-cols-3">
-          <div className="grid grid-cols-1 gap-4"></div>
-          <div className="grid grid-cols-1 gap-4"></div>
-          <div className="grid grid-cols-1 gap-4"></div>
         </div>
       </div>
     </div>

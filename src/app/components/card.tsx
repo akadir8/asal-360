@@ -2,11 +2,10 @@
 import {
 	motion,
 	useMotionTemplate,
-	useMotionValue,
 	useSpring,
 } from "framer-motion";
 
-import { MouseEventHandler, PropsWithChildren } from "react";
+import { PropsWithChildren } from "react";
 
 export const Card: React.FC<PropsWithChildren> = ({ children }) => {
 	const mouseX = useSpring(0, { stiffness: 500, damping: 100 });
